@@ -15,11 +15,11 @@ const ItemDetail = () => {
     <div>
       {item ? (
         <>
-          <h2>{item.name}</h2>
+          <h1>{item.name}</h1>
           <p>{item.description}</p>
         </>
       ) : (
-        <h2>Item not found</h2>
+        <h1>Item not found</h1>
       )}
     </div>
   );
